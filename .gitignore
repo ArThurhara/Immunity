@@ -23,6 +23,6 @@ Build/
 
 # Ignore VS Code settings (if applicable)
 .vscode/
-
+*.csproj
 # Optional: Ignore Unity's Prefabs if you have them in your directory
 # *.prefab
