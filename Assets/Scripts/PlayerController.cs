@@ -6,15 +6,16 @@ public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
     private Rigidbody2D rb;
-    [SerializeField] private float speed = 5f;
+    [SerializeField] private float speed = 1.5f;
+    [SerializeField] private Transform firePoint;
     private Vector2 direction;
-    private float rotationSpeed = 7f;
-    private float angle = 45;
+    private BulletManager bulletManager;
 
     private bool movingRight = false;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        bulletManager = GetComponent<BulletManager>();
     }
 
     // Update is called once per frame
@@ -24,9 +25,13 @@ public class PlayerController : MonoBehaviour
         direction = direction.normalized;
 
         if (direction.x < 0 && !movingRight) {
-            flip();
+            Flip();
         } else if (direction.x > 0 && movingRight) {
-            flip();
+            Flip();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            bulletManager.Shoot(firePoint.position, movingRight? Vector2.left : Vector2.right);
         }
     }
 
@@ -35,7 +40,7 @@ public class PlayerController : MonoBehaviour
         rb.velocity = direction * speed;
     }
 
-    private void flip() {
+    private void Flip() {
         movingRight = !movingRight;
         Vector3 scale = transform.localScale;
         scale.x *= -1;
