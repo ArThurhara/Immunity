@@ -15,7 +15,7 @@ MonoBehaviour:
   levelName: Intro
   levelID: 1
   gameDuration: 90
-  enemiesPerStages: 050000000a0000000f000000
+  enemiesPerStages: 0a0000000f00000014000000
   enemiesPrefabs:
   - {fileID: 7737002395877692000, guid: 238ed6e522d6cc04aa5858abba5af949, type: 3}
   - {fileID: 5446836093668375412, guid: 0f0671eadffe39e43b1ca8f09e7c5b34, type: 3}
