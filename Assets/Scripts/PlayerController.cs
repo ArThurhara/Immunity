@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
             Flip();
         }
 
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetButtonDown("Fire1")) {
             bulletManager.Shoot(firePoint.position, movingRight? Vector2.left : Vector2.right);
         }
     }
