@@ -23,27 +23,10 @@ public class PlayerController : MonoBehaviour
     {
         direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         direction = direction.normalized;
-
-        if (direction.x < 0 && !movingRight) {
-            Flip();
-        } else if (direction.x > 0 && movingRight) {
-            Flip();
-        }
-
-        if (Input.GetButtonDown("Fire1")) {
-            bulletManager.Shoot(firePoint.position, movingRight? Vector2.left : Vector2.right);
-        }
     }
 
     private void FixedUpdate()
     {
         rb.velocity = direction * speed;
-    }
-
-    private void Flip() {
-        movingRight = !movingRight;
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
     }
 }
