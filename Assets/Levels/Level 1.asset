@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bd2844b8a0841e438e48a2d66ef1357, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  levelName: Intro
+  levelID: 1
+  gameDuration: 90
+  enemiesPerStages: 050000000a0000000f000000
+  enemiesPrefabs:
+  - {fileID: 7737002395877692000, guid: 238ed6e522d6cc04aa5858abba5af949, type: 3}
+  - {fileID: 5446836093668375412, guid: 0f0671eadffe39e43b1ca8f09e7c5b34, type: 3}
+  - {fileID: 2804308855995343665, guid: f3895e17fc39bd1469a41cbc9d47a1f9, type: 3}
+  completionStages:
+  - 0.25
+  - 0.65
+  - 1
