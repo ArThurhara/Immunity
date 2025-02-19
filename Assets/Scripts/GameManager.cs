@@ -31,6 +31,10 @@ public class GameManager : MonoBehaviour
         if (currentLevel != null)
         {
             InitLevel(currentLevel);
+            EnemySpawner[] spawners = FindObjectsOfType<EnemySpawner>();
+            foreach (EnemySpawner spawner in spawners) {
+                spawner.SetEnemiesPrefabs(currentLevel.enemiesPrefabs);
+            }
         }
     }
 
@@ -41,7 +45,6 @@ public class GameManager : MonoBehaviour
 
         timeRemaining -= Time.deltaTime;
         UpdateGameStage();
-        // Losing and winning conditions according to the stats (timeremaining, collected datas)
     }
 
     public void InitLevel(Level level) {

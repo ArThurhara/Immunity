@@ -10,11 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 9066346193458727503}
   - component: {fileID: 4506283597025159621}
-  - component: {fileID: 1002825612524626836}
   - component: {fileID: 3247640906136514939}
+  - component: {fileID: 6081472827632061868}
+  - component: {fileID: 6222804014856046446}
   m_Layer: 0
   m_Name: Enemy_2
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d33d7671dbbbaa446a61a43a78110712, type: 3}
+  m_Sprite: {fileID: 768216193, guid: cecee53f997d1244da7ac32bf9cc48e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -86,8 +87,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1002825612524626836
-BoxCollider2D:
+--- !u!114 &3247640906136514939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804308855995343665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5683526334f65454db988ae59b2a7d47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyStats: {fileID: 11400000, guid: 5ec2f5e0880311b4b8cd14ea10e1a493, type: 2}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  numberOfPatrolPoints: 4
+  patrolRadius: 3
+  pathResetThreshold: 5
+  stoppingDistance: 0.1
+  waitTimeAtPatrolPoint: 1
+  predictionTime: 0.5
+  chaseSpeedMultiplier: 1.5
+  returnSpeedMultiplier: 0.8
+  showDebugInfo: 1
+--- !u!70 &6081472827632061868
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -118,33 +144,27 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.16715932, y: -0.13676679}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.26, y: 3.72}
-    newSize: {x: 4.26, y: 3.72}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.3178287, y: 3.2641108}
-  m_EdgeRadius: 0
---- !u!114 &3247640906136514939
-MonoBehaviour:
+  m_Offset: {x: 0.08301902, y: -0.345914}
+  m_Size: {x: 1.2885947, y: 1.6216142}
+  m_Direction: 0
+--- !u!95 &6222804014856046446
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2804308855995343665}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5683526334f65454db988ae59b2a7d47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyStats: {fileID: 11400000, guid: 5ec2f5e0880311b4b8cd14ea10e1a493, type: 2}
-  patrolPoints: []
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9fb9e9d36de55b9439c7ef900b1e2956, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

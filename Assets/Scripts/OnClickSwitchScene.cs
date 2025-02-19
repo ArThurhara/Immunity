@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class OnClickSwitchScene : MonoBehaviour
 {
     private Button button;
     public string scene_name = "";

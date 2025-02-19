@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8583817495646045148}
   m_Layer: 0
   m_Name: Enemy_3
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,7 +172,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyStats: {fileID: 11400000, guid: 3ab3beb6b0ec5164bb6536fa61c4eb48, type: 2}
-  patrolPoints: []
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 1
+  numberOfPatrolPoints: 4
+  patrolRadius: 3
+  pathResetThreshold: 5
+  stoppingDistance: 0.1
+  waitTimeAtPatrolPoint: 1
+  predictionTime: 0.5
+  chaseSpeedMultiplier: 1.5
+  returnSpeedMultiplier: 0.8
+  showDebugInfo: 1

@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     private Rigidbody2D rb;
     private Vector2 direction;
-    private float speed = 7.5f;
+    private float speed = 11f;
 
     public void SetDirection(Vector2 newDirection)
     {
