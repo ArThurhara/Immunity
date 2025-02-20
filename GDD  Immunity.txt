@@ -1,0 +1,96 @@
+Titre : Immunity
+Genre : Rogue like / Top-Down Shooter 
+Public cible : Joueurs occasionnels et hardcore, fans de jeux de tir et de progression.
+Plateformes : PC, éventuellement mobile.
+Thème : Combattez des bactéries et des virus dans un monde microscopique, collectez leur ADN pour améliorer vos capacités et débloquez des informations dans un Codex pour en appendre plus sur l'immunité.
+
+2. Histoire et Contexte
+Contexte :
+Le joueur incarne un agent nanotechnologique envoyé dans le corps d'un patient infecté par une mystérieuse épidémie. Le but est d'éliminer les bactéries et les virus tout en collectant leur ADN pour créer des armes et des outils plus efficaces. Chaque ennemi vaincu révèle des informations sur son comportement, ses faiblesses et son origine, stockées dans un Codex.
+
+Objectif principal :
+
+Éliminer les menaces pathogènes.
+
+Collecter de l'ADN pour remplir le Codex afin comprendre l'origine des divers maladie auquel l'être humain peut être confronter et apprendre comment le corps s'en defend. 
+
+Améliorer l'arsenal a l'aide de l'ADN collecter pour faciliter les Runs suivante.
+
+3. Gameplay
+Mécaniques de base :
+
+Mouvement : Le joueur se déplace dans un environnement en vue de dessus (top-down) avec les touches directionnelles de sont clavier.
+
+Combat : Le joueur utilise des armes et des capacités spéciales en visant a l'aide de sa sourie pour éliminer les bactéries et virus.
+
+Collecte d'ADN : les ennemi vaincu on une chance de laisser tomber de l'ADN, qui peut être utilisé pour débloquer des information dans le Codex ou améliorer les armes.
+
+Codex : Les informations collectées sur les ennemis sont stockées dans un Codex consultable depuis le HUB.
+
+
+Arsenal et améliorations :
+
+Armes de base : Pistolet à plasma
+
+Armes spéciales : Débloquées via l'ADN (ex. : lance-flammes pour les bactéries, gel cryogénique pour les virus).
+
+Capacités spéciales : soin instantané.
+
+
+HUB :
+
+Codex : Consulter les informations sur les ennemis vaincus.
+
+Laboratoire : Gérer et améliorer les armes ou capacités.
+
+
+
+4. Environnements
+
+Zones de jeu :
+
+Système sanguin : Environnement fluide avec des globules rouges et blancs.
+
+Tissus organiques : Zones complexes avec des obstacles et des cachettes.
+
+
+Design visuel :
+
+Style microscopique stylisé avec des couleurs vives pour les bactéries et les virus, et des textures organiques pour les environnements.
+
+Effets visuels pour représenter les réactions chimiques.
+
+
+
+5. Progression et Récompenses
+
+Progression :
+
+Niveaux : Chaque niveau est un nouvel organe à explorer, avec des ennemis et des défis uniques.
+
+
+Récompenses :
+
+Informations : Débloquer des entrées dans le Codex.
+
+Nouveaux équipements : Débloquer des armes et des capacités spéciales.
+
+Audio et Musique
+
+
+
+6. Design sonore 
+
+Effets sonores : Sons organiques (battements de cœur, fluides), bruits d'armes futuristes.
+
+
+
+
+7. Interface Utilisateur (UI)
+HUD :
+
+Barre de vie.
+
+Conclusion
+"Immunity" combine l'action intense d'un top-down shooter avec des éléments de progression et de découverte. En collectant de l'ADN et en remplissant le Codex, les joueurs peuvent personnaliser leur expérience et approfondir leur compréhension de la défense immunitaire. Avec son gameplay addictif, son univers unique et ses mécaniques innovantes, "Immunity" vise à offrir une expérience mémorable aux joueurs.
+
