@@ -15,6 +15,6 @@ MonoBehaviour:
   health: 20
   speed: 3.5
   dropProbability: 35
-  chaseRange: 10
+  chaseRange: 15
   damage: 15
   fieldOfView: 10

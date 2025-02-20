@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2287222346457107716}
   m_Layer: 0
   m_Name: Enemy_1
-  m_TagString: enemy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,6 +147,8 @@ MonoBehaviour:
   chaseSpeedMultiplier: 1.5
   returnSpeedMultiplier: 0.8
   showDebugInfo: 1
+  explosionEffect: {fileID: 3505179758757510025, guid: b354960444098ec4c8554e09b3a0658d, type: 3}
+  DNA: {fileID: 175266480894540206, guid: cf0a6981fb5f036498d05bf44f5a7587, type: 3}
 --- !u!95 &2287222346457107716
 Animator:
   serializedVersion: 5

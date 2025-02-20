@@ -13,6 +13,24 @@ public class PlayerController : MonoBehaviour
     private string used_door_id;
 
     private bool movingRight = false;
+
+    private float health = 100;
+
+    private float dnasCollected = 0;
+
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    public float GetHealth() {
+        return health;
+    }
+
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
@@ -38,5 +56,12 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log("Using Door: " + door_id);
         used_door_id = door_id;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider) {
+        if (collider.CompareTag("DNA")) {
+            dnasCollected++;
+            Destroy(collider.gameObject);
+        }
     }
 }

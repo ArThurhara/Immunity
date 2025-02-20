@@ -9,8 +9,9 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     private Rigidbody2D rb;
     private Vector2 direction;
-    public float dmg;
+    public float dmg = 10;
     public float spd = 11f;
+    [SerializeField] private GameObject bulletImpact;
 
     public void SetDirection(Vector2 newDirection)
     {
@@ -29,20 +30,21 @@ public class Bullet : MonoBehaviour
         rb.velocity = direction * spd;
     }
 
+    
     // Update is called once per frame
     void FixedUpdate()
     {
     }
-    void OnTriggerEnter2D(Collider2D obj)
+
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (obj.CompareTag("Player"))
+        if (collider.CompareTag("Enemy"))
         {
-            return;
+            collider.GetComponent<Enemy>().TakeDamage(10);
+            Destroy(this.gameObject);
         }
-        try {
-            obj.GetComponent<Vitality>().damage(dmg);
-        } catch {
-        }
-        Destroy(this.gameObject);
+        GameObject BulletImpact = Instantiate(bulletImpact, collider.gameObject.transform.position, Quaternion.identity);
+        // Destroy(BulletImpact, 0.5f);
     }
+    
 }

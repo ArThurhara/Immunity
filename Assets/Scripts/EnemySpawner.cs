@@ -50,8 +50,9 @@ public class EnemySpawner : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collider) {
+        Debug.Log("Inside Spawn Zone");
         if (spawnOnTrigger) {
-            if (collider.CompareTag("Player") && !spawnStarted) {
+            if (collider.CompareTag("Player")) {
                 RestartSpawning();
             }
         }

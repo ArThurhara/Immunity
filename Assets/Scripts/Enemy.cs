@@ -42,6 +42,8 @@ public class Enemy : MonoBehaviour
     private bool isWaitingAtPoint = false;
 
     private float health;
+    [SerializeField] private GameObject explosionEffect;
+    [SerializeField] private GameObject DNA;
     private void Start()
     {
         try
@@ -65,6 +67,12 @@ public class Enemy : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
+            GameObject ex = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            Destroy(ex, 0.2f);
+            float drop = Random.Range(0, 100);
+            if (drop <= enemyStats.dropProbability) {
+                Instantiate(DNA, transform.position, Quaternion.identity);
+            }
             Destroy(gameObject);
         }
     }
@@ -255,6 +263,12 @@ public class Enemy : MonoBehaviour
             Gizmos.color = Color.white;
             Vector3 textPosition = transform.position + Vector3.up * 2.5f;
             UnityEditor.Handles.Label(textPosition, $"Phase: {currentPhase}");
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.CompareTag("Player")) {
+            collision.gameObject.GetComponent<PlayerController>().TakeDamage(enemyStats.damage);
         }
     }
 }

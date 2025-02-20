@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Enemy_2
   m_EditorClassIdentifier: 
   health: 20
-  speed: 6.5
+  speed: 4
   dropProbability: 35
-  chaseRange: 10
-  damage: 15
+  chaseRange: 12
+  damage: 10
   fieldOfView: 10
