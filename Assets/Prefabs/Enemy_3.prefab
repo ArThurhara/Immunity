@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6339891371861113484}
   - component: {fileID: 2174650436726756189}
   - component: {fileID: 7944711513745445465}
+  - component: {fileID: 8583817495646045148}
   m_Layer: 0
   m_Name: Enemy_3
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.31, y: -2.66, z: 0}
-  m_LocalScale: {x: 0.20477426, y: 0.20477426, z: 0.20477426}
+  m_LocalScale: {x: 0.4473649, y: 0.4473649, z: 0.4473649}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fd632a3b7685a184e9a13be4a3f613f8, type: 3}
+  m_Sprite: {fileID: 2110184052, guid: e6e3f0ab79c0a83fb9df15c35fc1f6c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,18 +119,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.15199757, y: -0.24872482}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.59, y: 6.57}
+    oldSize: {x: 1.8125, y: 1.8125}
     newSize: {x: 3.59, y: 6.57}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.0096436, y: 6.072551}
+  m_Size: {x: 1.8125, y: 1.8125}
   m_EdgeRadius: 0
 --- !u!50 &7944711513745445465
 Rigidbody2D:
@@ -158,3 +159,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &8583817495646045148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5446836093668375412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5683526334f65454db988ae59b2a7d47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyStats: {fileID: 11400000, guid: 3ab3beb6b0ec5164bb6536fa61c4eb48, type: 2}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  numberOfPatrolPoints: 4
+  patrolRadius: 3
+  pathResetThreshold: 5
+  stoppingDistance: 0.1
+  waitTimeAtPatrolPoint: 1
+  predictionTime: 0.5
+  chaseSpeedMultiplier: 1.5
+  returnSpeedMultiplier: 0.8
+  showDebugInfo: 1
+  explosionEffect: {fileID: 3505179758757510025, guid: b354960444098ec4c8554e09b3a0658d, type: 3}
+  DNA: {fileID: 175266480894540206, guid: cf0a6981fb5f036498d05bf44f5a7587, type: 3}

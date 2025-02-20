@@ -8,7 +8,7 @@ public class EnemyStats : ScriptableObject
     public float health;
     public float speed;
     public float dropProbability;
-    public float fieldofView;
+    public float chaseRange;
     public float damage;
-    public Transform[] patrolPoints;
+    public float fieldOfView;
 }

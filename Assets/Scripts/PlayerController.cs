@@ -10,8 +10,31 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform firePoint;
     private Vector2 direction;
     private BulletManager bulletManager;
+    private string used_door_id;
 
     private bool movingRight = false;
+
+    private float health = 100;
+
+    private float dnasCollected = 0;
+
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    public float GetHealth() {
+        return health;
+    }
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -23,27 +46,22 @@ public class PlayerController : MonoBehaviour
     {
         direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         direction = direction.normalized;
-
-        if (direction.x < 0 && !movingRight) {
-            Flip();
-        } else if (direction.x > 0 && movingRight) {
-            Flip();
-        }
-
-        if (Input.GetButtonDown("Fire1")) {
-            bulletManager.Shoot(firePoint.position, movingRight? Vector2.left : Vector2.right);
-        }
     }
 
     private void FixedUpdate()
     {
         rb.velocity = direction * speed;
     }
+    public void useDoor(string door_id)
+    {
+        Debug.Log("Using Door: " + door_id);
+        used_door_id = door_id;
+    }
 
-    private void Flip() {
-        movingRight = !movingRight;
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+    private void OnTriggerEnter2D(Collider2D collider) {
+        if (collider.CompareTag("DNA")) {
+            dnasCollected++;
+            Destroy(collider.gameObject);
+        }
     }
 }
