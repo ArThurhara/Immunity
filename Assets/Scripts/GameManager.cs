@@ -11,6 +11,13 @@ public class GameManager : MonoBehaviour
     private float timeRemaining = 0f;
     private int currentStage = 0;
 
+    private int dnasCollected
+
+    public int[] GetGameResult {
+        int[] result = new int[2];
+
+        return {, };
+    }
     public Level CurrentLevel() {
         return currentLevel;
     }
