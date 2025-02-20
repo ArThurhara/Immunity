@@ -237,34 +237,34 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.blue;
-        foreach (Vector2 point in patrolPoints)
-        {
-            Gizmos.DrawSphere(point, 0.1f);
-        }
+    // private void OnDrawGizmos()
+    // {
+    //     Gizmos.color = Color.blue;
+    //     foreach (Vector2 point in patrolPoints)
+    //     {
+    //         Gizmos.DrawSphere(point, 0.1f);
+    //     }
 
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, enemyStats.chaseRange);
+    //     Gizmos.color = Color.red;
+    //     Gizmos.DrawWireSphere(transform.position, enemyStats.chaseRange);
 
-        if (player != null)
-        {
-            Gizmos.color = Color.yellow;
-            Gizmos.DrawLine(transform.position, player.position);
+    //     if (player != null)
+    //     {
+    //         Gizmos.color = Color.yellow;
+    //         Gizmos.DrawLine(transform.position, player.position);
 
-            float distance = Vector2.Distance(transform.position, player.position);
-            Debug.DrawRay(transform.position, Vector2.up * 2,
-                distance <= enemyStats.chaseRange ? Color.green : Color.red);
-        }
+    //         float distance = Vector2.Distance(transform.position, player.position);
+    //         Debug.DrawRay(transform.position, Vector2.up * 2,
+    //             distance <= enemyStats.chaseRange ? Color.green : Color.red);
+    //     }
 
-        if (Application.isPlaying)
-        {
-            Gizmos.color = Color.white;
-            Vector3 textPosition = transform.position + Vector3.up * 2.5f;
-            UnityEditor.Handles.Label(textPosition, $"Phase: {currentPhase}");
-        }
-    }
+    //     if (Application.isPlaying)
+    //     {
+    //         Gizmos.color = Color.white;
+    //         Vector3 textPosition = transform.position + Vector3.up * 2.5f;
+    //         UnityEditor.Handles.Label(textPosition, $"Phase: {currentPhase}");
+    //     }
+    // }
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("Player")) {

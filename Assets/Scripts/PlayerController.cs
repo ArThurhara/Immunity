@@ -9,15 +9,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 1.5f;
     [SerializeField] private Transform firePoint;
     private Vector2 direction;
-    private BulletManager bulletManager;
     private string used_door_id;
 
-    private bool movingRight = false;
+    // private bool movingRight = false;
 
     private float health = 100;
 
     private int dnasCollected = 0;
-    private AudioSource audS;
+    // private AudioSource audS;
 
     public void TakeDamage(float damage)
     {
@@ -33,15 +32,13 @@ public class PlayerController : MonoBehaviour
         return health;
     }
 
-    private void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
+    // private void Awake()
+    // {
+    //     DontDestroyOnLoad(this.gameObject);
+    // }
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        bulletManager = GetComponent<BulletManager>();
-        audS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -64,7 +61,7 @@ public class PlayerController : MonoBehaviour
         if (collider.CompareTag("DNA")) {
             dnasCollected++;
             Destroy(collider.gameObject);
-            audS.Play();
+            // audS.Play();
         }
     }
 }

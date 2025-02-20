@@ -93,9 +93,1450 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_0"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2110
+        width: 866
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6725ab7bcfdeae14f813fdbfa8e18fea
+      internalID: 445775515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_1"
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 2079
+        width: 867
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27f0e53a6b822f4aa8b272db86d47d7
+      internalID: -1403042331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_2"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1087
+        width: 866
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46770b99829399641a0a83930178b73c
+      internalID: -260039847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_3"
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1791
+        width: 323
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07e2ea805943594e97f6420dbae6651
+      internalID: 1910894164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_4"
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1951
+        width: 129
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58450fd0c4694fe4c971a3fd4c12c183
+      internalID: -1307587979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_5"
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1726
+        width: 131
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80aee5bae963914792c79c788c37640
+      internalID: -1512985454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_6"
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1887
+        width: 97
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b58f91be725b645a466a9e7ef6c6ad
+      internalID: -1997768350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_7"
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1087
+        width: 515
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5c10493c1b30440808cff58f929296
+      internalID: -286958723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_8"
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1503
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f40a0146cbc40946bf259d4e2e3c0b5
+      internalID: 1580343361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_9"
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1630
+        width: 291
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8862d23fea6a13e43ade4cc90571690e
+      internalID: -1034827879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_10"
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1503
+        width: 66
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f5b455e06bafe438693c46624ae75e
+      internalID: -2067781817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_11"
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1407
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d82755ce4d5b8a4aa1df30ae5604a48
+      internalID: 601418897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_12"
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1375
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aba73c23580e23408bd0c83324e8200
+      internalID: 1677246241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_13"
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1375
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8835cc24bf983d046a633555742475b8
+      internalID: 1513337178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_14"
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1279
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01686fb51bbe7449ac7bec0727d96f7
+      internalID: 709149126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_15"
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1342
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc1133a5723fba44a746beb15617560
+      internalID: 1997216754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_16"
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1246
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275333598da249c4780f665d830346b6
+      internalID: 662555441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_17"
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1183
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afff88765477e8b408b5c1277f68452c
+      internalID: -513948552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_18"
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1087
+        width: 129
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fb8317cb430ed40b23c31574dbc531
+      internalID: -583511060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_19"
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 958
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2259e77f3301a9c4eb9b18697b53abee
+      internalID: -898067592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_20"
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 927
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041698753d068e145815b110c339d994
+      internalID: 1642912246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_21"
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 927
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824b7997cd59e28449d4be9b8df67d27
+      internalID: -1710395960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_22"
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 927
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631b08334d444f748bc5b8467e121a96
+      internalID: 518592501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_23"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 895
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d671a0341a9021f43a86e2e6eef3beb7
+      internalID: 554183745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_24"
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 831
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce97e5e6afef534d875b45f2ef88da7
+      internalID: 1419775316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_25"
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 862
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ec2df649fbc2d409975d5faa8ccfda
+      internalID: 1067000052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_26"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 831
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abdcf1b5930b68469be62a0f3fdc4d2
+      internalID: -971251255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_27"
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 735
+        width: 66
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e76bbaf871131e48ad34446c7388ba5
+      internalID: -714526152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_28"
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 735
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5389fdf68288de945a99883e0b638b10
+      internalID: 2129768272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_29"
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 766
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b057ce8d024ba4a98eb44c2c2c99e7
+      internalID: 212995562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_30"
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 766
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb26d60178e21b49b2b7fc53dc4abe1
+      internalID: -712948738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_31"
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 735
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5501798bf5482468d1bf2a6a7065dc
+      internalID: 89291969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_32"
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 766
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7f10425c97c3249b5d46a36a974141
+      internalID: -1444422190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_33"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 670
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689450a91a24f554d89f55f35c5f4c4f
+      internalID: 293568787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_34"
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 607
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d024cdf0c872904cbd06fff8992087d
+      internalID: -771827600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_35"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 703
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778c9efff11d3654593b1c09c17a2af5
+      internalID: 1701580865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_36"
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 670
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d052e9c1903dd7b45840bfc79bc7dfe7
+      internalID: -1796348712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_37"
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 670
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57964d7517e9b747bf46d47f10d170f
+      internalID: -1382240646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_38"
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 607
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1adb86b1d8b17342a693a8ee50c3039
+      internalID: -1336147622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_39"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 607
+        width: 97
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dee73da2da1324db1a445d5237c50a
+      internalID: -325419314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_40"
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 607
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784541c86f42a384a9cf43d5c38b7485
+      internalID: -169836533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_41"
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 639
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2ea59d4ee90244594b490661df273d
+      internalID: -1570625712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_42"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 478
+        width: 129
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ff7c9539e6292429afbfe2a727f1f3
+      internalID: 1913329091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_43"
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 511
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a449a80d44fa7914e942bc29a7f93122
+      internalID: 1411527530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_44"
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 543
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1a5593a8b594446bb22f1e4b1b69fe
+      internalID: -1987970091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_45"
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 511
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b097614f0f8dab4a9fa278f01909b20
+      internalID: -1911674966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_46"
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 478
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913e107ea7403234c9870ae3c686306b
+      internalID: 877918223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_47"
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 351
+        width: 66
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e627251a0366940b92d258782cc481
+      internalID: 451962848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_48"
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 351
+        width: 162
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a84bd6d143bde34fb460837206ef621
+      internalID: 412713856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_49"
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 382
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a3ee9ff5b2bc143b646bade0f581ea
+      internalID: 2130737275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_50"
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 382
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40d7c5393bcb154dae565879fc117ab
+      internalID: 1078915040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_51"
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 415
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b242f8f337387f440b0991889031781f
+      internalID: -1234141979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_52"
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 351
+        width: 66
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb52a092da46ae42bf25635cd1708c4
+      internalID: 1638338845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_53"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 351
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a05ff39803aa045a8d0befc5b60708
+      internalID: -222396591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_54"
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 319
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b79ea405b12d5542b928a363cd7f766
+      internalID: -2118713327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_55"
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 351
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c394740cbb5d72489fefcce0eafc20a
+      internalID: 1406369001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_56"
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 255
+        width: 131
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d9626e63af864409a8cb9ec6e7f371
+      internalID: -324026832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_57"
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 255
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784cd81e2abfc6946b2da9451e3a2643
+      internalID: -1446726122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_58"
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 286
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca897efff4bdfcd4e95a9cbf7f787037
+      internalID: 1565961922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_59"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f5fa2093ad23044a8ed5a5be285cd3
+      internalID: -1499765062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_60"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 223
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133719a623184d74f847e9d252cd1c1b
+      internalID: -2106689223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_61"
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 223
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de06e2b6057b8345bbadfb390ec66a3
+      internalID: 288191072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_62"
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 127
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9973f9ad24264d845a262415c570f42b
+      internalID: -1476940230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_63"
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 159
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050c0828c919a184699f63b16202e35e
+      internalID: -1340254940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_64"
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 159
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76fae701d56a75428e04ebdf046605d
+      internalID: -1815236018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_65"
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 63
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4d3409d97976c4c9b2267f9c700623
+      internalID: -654317670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_66"
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 63
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954cc453913bb56468c075aeb9ac88a8
+      internalID: 755263609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Virus h\xE9patite C_67"
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0487cde7fd5f8904f8676564446d01bb
+      internalID: -1727239384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +1547,75 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Virus h\xE9patite C_0": 445775515
+      "Virus h\xE9patite C_1": -1403042331
+      "Virus h\xE9patite C_10": -2067781817
+      "Virus h\xE9patite C_11": 601418897
+      "Virus h\xE9patite C_12": 1677246241
+      "Virus h\xE9patite C_13": 1513337178
+      "Virus h\xE9patite C_14": 709149126
+      "Virus h\xE9patite C_15": 1997216754
+      "Virus h\xE9patite C_16": 662555441
+      "Virus h\xE9patite C_17": -513948552
+      "Virus h\xE9patite C_18": -583511060
+      "Virus h\xE9patite C_19": -898067592
+      "Virus h\xE9patite C_2": -260039847
+      "Virus h\xE9patite C_20": 1642912246
+      "Virus h\xE9patite C_21": -1710395960
+      "Virus h\xE9patite C_22": 518592501
+      "Virus h\xE9patite C_23": 554183745
+      "Virus h\xE9patite C_24": 1419775316
+      "Virus h\xE9patite C_25": 1067000052
+      "Virus h\xE9patite C_26": -971251255
+      "Virus h\xE9patite C_27": -714526152
+      "Virus h\xE9patite C_28": 2129768272
+      "Virus h\xE9patite C_29": 212995562
+      "Virus h\xE9patite C_3": 1910894164
+      "Virus h\xE9patite C_30": -712948738
+      "Virus h\xE9patite C_31": 89291969
+      "Virus h\xE9patite C_32": -1444422190
+      "Virus h\xE9patite C_33": 293568787
+      "Virus h\xE9patite C_34": -771827600
+      "Virus h\xE9patite C_35": 1701580865
+      "Virus h\xE9patite C_36": -1796348712
+      "Virus h\xE9patite C_37": -1382240646
+      "Virus h\xE9patite C_38": -1336147622
+      "Virus h\xE9patite C_39": -325419314
+      "Virus h\xE9patite C_4": -1307587979
+      "Virus h\xE9patite C_40": -169836533
+      "Virus h\xE9patite C_41": -1570625712
+      "Virus h\xE9patite C_42": 1913329091
+      "Virus h\xE9patite C_43": 1411527530
+      "Virus h\xE9patite C_44": -1987970091
+      "Virus h\xE9patite C_45": -1911674966
+      "Virus h\xE9patite C_46": 877918223
+      "Virus h\xE9patite C_47": 451962848
+      "Virus h\xE9patite C_48": 412713856
+      "Virus h\xE9patite C_49": 2130737275
+      "Virus h\xE9patite C_5": -1512985454
+      "Virus h\xE9patite C_50": 1078915040
+      "Virus h\xE9patite C_51": -1234141979
+      "Virus h\xE9patite C_52": 1638338845
+      "Virus h\xE9patite C_53": -222396591
+      "Virus h\xE9patite C_54": -2118713327
+      "Virus h\xE9patite C_55": 1406369001
+      "Virus h\xE9patite C_56": -324026832
+      "Virus h\xE9patite C_57": -1446726122
+      "Virus h\xE9patite C_58": 1565961922
+      "Virus h\xE9patite C_59": -1499765062
+      "Virus h\xE9patite C_6": -1997768350
+      "Virus h\xE9patite C_60": -2106689223
+      "Virus h\xE9patite C_61": 288191072
+      "Virus h\xE9patite C_62": -1476940230
+      "Virus h\xE9patite C_63": -1340254940
+      "Virus h\xE9patite C_64": -1815236018
+      "Virus h\xE9patite C_65": -654317670
+      "Virus h\xE9patite C_66": 755263609
+      "Virus h\xE9patite C_67": -1727239384
+      "Virus h\xE9patite C_7": -286958723
+      "Virus h\xE9patite C_8": 1580343361
+      "Virus h\xE9patite C_9": -1034827879
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

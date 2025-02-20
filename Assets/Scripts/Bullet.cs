@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
+// using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -40,11 +40,11 @@ public class Bullet : MonoBehaviour
     {
         if (collider.CompareTag("Enemy"))
         {
+            GameObject BulletImpact = Instantiate(bulletImpact, collider.gameObject.transform.position, Quaternion.identity);
+            Destroy(BulletImpact, 0.5f);
             collider.GetComponent<Enemy>().TakeDamage(10);
             Destroy(this.gameObject);
         }
-        GameObject BulletImpact = Instantiate(bulletImpact, collider.gameObject.transform.position, Quaternion.identity);
-        // Destroy(BulletImpact, 0.5f);
     }
     
 }

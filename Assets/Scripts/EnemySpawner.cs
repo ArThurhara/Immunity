@@ -19,7 +19,7 @@ public class EnemySpawner : MonoBehaviour
 
     public void SetNumberOfEnemies(int number) {
         numberOfEnemies = number;
-        if (number > 0 && !spawnStarted) {
+        if (number > 0) {
             RestartSpawning();
         }
     }
@@ -70,6 +70,10 @@ public class EnemySpawner : MonoBehaviour
     IEnumerator Spawn() {
         Debug.Log("Number of Enemies: " + numberOfEnemies);
         while (spawnStarted && numberOfEnemies > 0) {
+            if (enemiesPrefabs.Length == 0) {
+                Debug.LogWarning("No enemies prefabs found");
+                yield break;
+            }
             int randomIndex = Math.Clamp(UnityEngine.Random.Range(0, currentStage + 1), 0, enemiesPrefabs.Length - 1); 
             int randomSpawnPointIndex = UnityEngine.Random.Range(0, spawnPoints.Length);
             Instantiate(enemiesPrefabs[randomIndex], spawnPoints[randomSpawnPointIndex].position, Quaternion.identity);
