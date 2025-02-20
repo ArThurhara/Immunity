@@ -10,8 +10,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform firePoint;
     private Vector2 direction;
     private BulletManager bulletManager;
+    private string used_door_id;
 
     private bool movingRight = false;
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,5 +33,10 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = direction * speed;
+    }
+    public void useDoor(string door_id)
+    {
+        Debug.Log("Using Door: " + door_id);
+        used_door_id = door_id;
     }
 }
