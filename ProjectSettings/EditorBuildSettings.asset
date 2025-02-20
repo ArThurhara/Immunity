@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Outpost1.unity
     guid: a05f6d6fbcce6e387a2b43152fc75299
+  - enabled: 1
+    path: Assets/Scenes/OutPost1_Outside.unity
+    guid: 28e0062c51e6fe57db8042d239f923f0
   m_configObjects: {}

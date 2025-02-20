@@ -5,6 +5,7 @@ using UnityEngine;
 public class GunScript : MonoBehaviour
 {
     Transform tf;
+    AudioSource audS;
     SpriteRenderer sr;
     public GameObject bullet_prefab;
     public GameObject playerAppearence;
@@ -15,6 +16,7 @@ public class GunScript : MonoBehaviour
         player_sr = playerAppearence.GetComponent<SpriteRenderer>();
         tf = GetComponent<Transform>();
         sr = GetComponent<SpriteRenderer>();
+        audS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -29,6 +31,7 @@ public class GunScript : MonoBehaviour
             try
             {
                 bullet.GetComponent<Bullet>().SetDirection(dir);
+                audS.PlayOneShot(audS.clip);
             }
             catch (System.Exception)
             {

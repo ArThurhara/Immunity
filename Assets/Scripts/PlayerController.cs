@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private float health = 100;
 
     private float dnasCollected = 0;
+    private AudioSource audS;
 
     public void TakeDamage(float damage)
     {
@@ -39,6 +40,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         bulletManager = GetComponent<BulletManager>();
+        audS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -57,10 +59,10 @@ public class PlayerController : MonoBehaviour
         Debug.Log("Using Door: " + door_id);
         used_door_id = door_id;
     }
-
     private void OnTriggerEnter2D(Collider2D collider) {
         if (collider.CompareTag("DNA")) {
             dnasCollected++;
+            audS.Play();
             Destroy(collider.gameObject);
         }
     }
