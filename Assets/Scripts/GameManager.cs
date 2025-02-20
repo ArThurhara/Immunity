@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,12 +13,14 @@ public class GameManager : MonoBehaviour
     private float timeRemaining = 0f;
     private int currentStage = 0;
 
-    private int dnasCollected
+    public int[] gameResults;
 
-    public int[] GetGameResult {
-        int[] result = new int[2];
-
-        return {, };
+    private bool inGame;
+    public void GameOver(int dnasCollected) {
+        gameResults = new int[] {dnasCollected, currentStage};
+        SceneManager.LoadScene("GameOver");
+        inGame = false;
+        Debug.Log("Game Over");
     }
     public Level CurrentLevel() {
         return currentLevel;
@@ -43,6 +47,7 @@ public class GameManager : MonoBehaviour
                 spawner.SetEnemiesPrefabs(currentLevel.enemiesPrefabs);
             }
         }
+        inGame = true;
     }
 
     // Update is called once per frame
@@ -50,6 +55,9 @@ public class GameManager : MonoBehaviour
     {
         if (currentLevel == null) return;
 
+        if (timeRemaining <= 0) {
+            GameOver(0);
+        }
         timeRemaining -= Time.deltaTime;
         UpdateGameStage();
     }

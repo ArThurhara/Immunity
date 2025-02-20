@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3746349972227272420}
   - component: {fileID: 7311019567106636673}
-  - component: {fileID: 5058276316588953558}
+  - component: {fileID: 723486839136853069}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -78,7 +78,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 2}
   m_EdgeRadius: 0
---- !u!114 &5058276316588953558
+--- !u!114 &723486839136853069
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,4 +90,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f68b08dfde09e0cb95e2be713e11e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene_name: OutPost1_Outside
+  scene_name: 
+  door_id: 
+  used: 0

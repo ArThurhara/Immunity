@@ -19,4 +19,7 @@ public class OnClickSwitchScene : MonoBehaviour
     {
         SceneManager.LoadScene(scene_name);
     }
+    public void SwithScene() {
+        SceneManager.LoadScene(scene_name);
+    }
 }

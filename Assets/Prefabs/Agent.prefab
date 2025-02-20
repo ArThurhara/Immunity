@@ -192,10 +192,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 13840095899295668}
-  - component: {fileID: 4714273601938489229}
   - component: {fileID: 1182420409973612831}
   - component: {fileID: 583090857857362280}
   - component: {fileID: 807010204221762791}
+  - component: {fileID: 397278112236009431}
   m_Layer: 0
   m_Name: Agent
   m_TagString: Untagged
@@ -220,20 +220,6 @@ Transform:
   - {fileID: 3965894741765810074}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4714273601938489229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9199229530513716819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be7eb08cf742bc44d9620937cde8bd80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1.5
-  firePoint: {fileID: 13840095899295668}
 --- !u!50 &1182420409973612831
 Rigidbody2D:
   serializedVersion: 4
@@ -331,3 +317,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.4}
   m_Size: {x: 1.0317566, y: 0.2390466}
   m_Direction: 1
+--- !u!114 &397278112236009431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9199229530513716819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be7eb08cf742bc44d9620937cde8bd80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
+  firePoint: {fileID: 2971543870568757641}

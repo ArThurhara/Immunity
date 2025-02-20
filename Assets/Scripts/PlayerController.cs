@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     private float health = 100;
 
-    private float dnasCollected = 0;
+    private int dnasCollected = 0;
     private AudioSource audS;
 
     public void TakeDamage(float damage)
@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
+            GameManager.Instance.GameOver(dnasCollected);
             Destroy(this.gameObject);
         }
     }
@@ -62,8 +63,8 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider) {
         if (collider.CompareTag("DNA")) {
             dnasCollected++;
-            audS.Play();
             Destroy(collider.gameObject);
+            audS.Play();
         }
     }
 }
